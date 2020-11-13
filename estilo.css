@@ -1,0 +1,112 @@
+body, html {
+    background-color: #222222;
+    color: white;
+    margin: 0;
+    background-size: cover;
+}
+.cabe{
+    display: inline-block;
+    width: 150px;
+    color: white;
+    font-family: "Rubik";
+    font-size: 12pt;
+    
+}
+#header{
+    text-align: center;
+    background-color: #161616;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+a:link {
+    color:  white;
+  }
+
+a:visited{
+    color: white;
+}
+
+  h1, h2 {
+      text-align: center;
+      padding-bottom: 5em;
+  }
+  p {
+      text-align: center;
+      font-size: 36pt;
+      font-family: "Rubik", bold;
+  }
+  .fundo {
+    text-align: center;
+    background-color: #161616;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  h3, h4, h5{
+      text-align: center;
+      margin-bottom: 0em;
+  }
+  p{
+      text-align: center;
+      font-family: "rubik";
+      font-style: italic;
+      font-size: 38px;
+  }
+  .txtsombra{
+      text-align: center;
+      font-style: italic;
+      text-shadow: 7px 5px #161616;
+      margin-top: 0em;
+      font-size: 38px;
+  }
+  .habilidades{
+    display: inline-block;
+    width: 400px;
+    color: white;
+    font-family: "Rubik";
+    font-size: 50pt;
+    font-style: italic;
+    text-shadow: 7px 5px #161616;
+  }
+  article{
+      text-align: center;
+
+  }
+  section{
+        background-color: #161616;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        font-size: 45pt;
+        text-shadow: 7px 5px black;
+    }
+    #botao{
+        padding-right: 7em;
+        float: right;
+        padding-bottom: 1em;
+        padding-top: 0px;
+    }
+    .inter{
+        padding-left: 7em;
+        text-align: left;
+        font-size: 55px;
+    }
+    footer{
+        text-align: left;
+        background-color: #161616;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 5em;
+        color: white;
+        font-family: "Rubik";
+        font-size: 15pt;
+    }
+    a{
+        text-decoration: none;
+    }
+    .titulo{
+        text-align: center;
+        font-style: italic;
+        text-shadow: 7px 5px #161616;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 38px;
+    }
