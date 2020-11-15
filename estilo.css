@@ -28,7 +28,7 @@ a:visited{
 
   h1, h2 {
       text-align: center;
-      padding-bottom: 5em;
+     font-size: 40pt;
   }
 
   p {
@@ -107,6 +107,7 @@ a:visited{
     }
     a{
         text-decoration: none;
+        display: inline-block;
     }
     .titulo{
         text-align: center;
@@ -116,9 +117,25 @@ a:visited{
         margin-bottom: 40px;
         font-size: 38px;
     }
-    img {
-        display: inline;
+    img .reading {
+        display: inline-block;
+        image-orientation: flip;
     }
     .reading {
         display: inline-block;
+        width: 300px;
     }
+    .titulo3{
+        text-align: left;
+        margin-bottom: 0em;
+        color: white;
+        font-family: "rubik";
+        font-size: 40pt;
+        font-style: italic;
+        text-shadow: 7px 5px #161616;
+        margin-left: 30px;
+      }
+      .justify{
+        text-align: justify;
+        margin-left: 30px;
+      }
