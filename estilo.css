@@ -30,6 +30,7 @@ a:visited{
       text-align: center;
       padding-bottom: 5em;
   }
+
   p {
       text-align: center;
       font-size: 36pt;
@@ -42,8 +43,13 @@ a:visited{
     padding-bottom: 1.5em;
   }
   h3, h4, h5{
-      text-align: center;
-      margin-bottom: 0em;
+    text-align: center;
+    margin-bottom: 0em;
+    color: white;
+    font-family: "Rubik";
+    font-size: 40pt;
+    font-style: italic;
+    text-shadow: 7px 5px #161616;
   }
   p{
       text-align: center;
@@ -109,4 +115,10 @@ a:visited{
         margin-top: 40px;
         margin-bottom: 40px;
         font-size: 38px;
+    }
+    img {
+        display: inline;
+    }
+    .reading {
+        display: inline-block;
     }
