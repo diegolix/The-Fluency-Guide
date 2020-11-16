@@ -136,7 +136,8 @@ a:visited{
       }
       .justify{
         text-align: left;
-        padding-left: 7em;
+        padding-left: 11em;
+        padding-right: 7em;
       }
 
 #paragrafo{
@@ -149,4 +150,5 @@ a:visited{
 .pratique {
     padding-left: 8em;
     text-align: left;
+    padding-right: 7em;
 }
