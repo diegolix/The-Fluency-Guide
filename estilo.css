@@ -141,14 +141,35 @@ a:visited{
       }
 
 #paragrafo{
-    padding-left: 10em;
-    
+    padding-left: 5em;
     width: 30em;
     font-size: 30px;
     text-align: left;
+    
 }
 .pratique {
-    padding-left: 8em;
+    padding-left: 3em;
     text-align: left;
     padding-right: 7em;
+}
+.imgleft {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+}
+.imgright {
+    width: 200px;
+    float: right;
+    margin-left: 15px;
+}
+.paragraforight {
+    padding-right: 2em;
+    font-size: 30px;
+    text-align: right;
+    padding-left: 25em;
+}
+.pratique2 {
+    padding-right: 1em;
+    text-align: right;
+    padding-left: 7em;
 }
