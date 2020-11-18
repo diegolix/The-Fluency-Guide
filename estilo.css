@@ -140,15 +140,16 @@ a:visited{
         padding-right: 7em;
       }
 
-#paragrafo{
-    padding-left: 5em;
+.paragrafo{
+    padding-left: 3em;
     width: 30em;
     font-size: 30px;
-    text-align: left;
+    text-align: justify;
+    padding-right: 10px;
     
 }
 .pratique {
-    padding-left: 3em;
+    padding-left: 2em;
     text-align: left;
     padding-right: 7em;
 }
@@ -165,8 +166,8 @@ a:visited{
 .paragraforight {
     padding-right: 2em;
     font-size: 30px;
-    text-align: right;
-    padding-left: 25em;
+    text-align: justify;
+    padding-left: 33em;
 }
 .pratique2 {
     padding-right: 1em;
