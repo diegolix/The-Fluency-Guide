@@ -1,5 +1,5 @@
 function Home(){
-    return <a href="index.html"></a>
+    return <a href="index.html">home</a>
 
 }
 export default Home
