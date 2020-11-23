@@ -1,4 +1,4 @@
-body, html {
+body, html { 
     background-color: #222222;
     color: white;
     margin: 0;
@@ -154,14 +154,20 @@ a:visited{
     padding-right: 7em;
 }
 .imgleft {
-    width: 200px;
+    width: 250px;
     float: left;
     margin-right: 15px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
 }
 .imgright {
-    width: 200px;
+    width: 25 0px;
     float: right;
     margin-left: 15px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
 }
 .paragraforight {
     padding-right: 2em;
