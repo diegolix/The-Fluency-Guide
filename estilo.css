@@ -12,6 +12,7 @@ body, html {
   font-family: Rubik-regular;
   src: url(fonts/Rubik-Regular.ttf);
 }
+
 .imgpratique {
   padding-left: 32em;
 }
@@ -68,7 +69,6 @@ a:visited{
       text-align: center;
       font-style: italic;
       text-shadow: 7px 5px #161616;
-      margin-top: 0em;
       font-size: 38px;
   }
   .habilidades{
@@ -85,22 +85,17 @@ a:visited{
 
   }
   section{
+        display: flex;
+        justify-content: center;
         background-color: #161616;
-        padding-top: 0.2em;
-        padding-bottom: 0.2em;
-        font-size: 45pt;
         text-shadow: 7px 5px black;
+        flex-direction: row;
+        align-items: center;
     }
-    #botao{
-        padding-right: 7em;
-        float: right;
-        padding-bottom: 1em;
-        padding-top: 0px;
-    }
-    .inter{
-        padding-left: 7em;
-        text-align: left;
+    .botao{
+        margin: 1em;;
         font-size: 55px;
+        text-align: left;
     }
     footer{
         text-align: left;
