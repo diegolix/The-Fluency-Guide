@@ -10,7 +10,7 @@ body, html {
     color: white;
     font-family: "Rubik";
     font-size: 12pt;
-    
+
 }
 #header{
     text-align: center;
@@ -26,15 +26,21 @@ a:visited{
     color: white;
 }
 
-  h1, h2 {
-      text-align: center;
-     padding-bottom: 5em;
+  h1{
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+  }
+  h2{
+    text-align: center;
+    padding-bottom: 5em;
   }
 
   p {
       text-align: center;
       font-size: 36pt;
       font-family: "Rubik", bold;
+      padding-bottom: 1em;
   }
   .fundo {
     text-align: center;
@@ -50,28 +56,37 @@ a:visited{
     font-size: 40pt;
     font-style: italic;
     text-shadow: 7px 5px #161616;
+    padding-bottom: 40px;
+  }
+  .passo{
+      padding-top: 2em;
+      text-align: center;
+  }
+  .clique{
+    padding-bottom: 1.3em;
   }
   p{
       text-align: center;
       font-family: "rubik";
       font-style: italic;
-      font-size: 38px;
+      font-size: 32px;
   }
   .txtsombra{
       text-align: center;
       font-style: italic;
       text-shadow: 7px 5px #161616;
       margin-top: 0em;
-      font-size: 38px;
+      font-size: 37px;
   }
   .habilidades{
     display: inline-block;
-    width: 400px;
+    width: 300px;
     color: white;
     font-family: "Rubik";
-    font-size: 50pt;
+    font-size: 46pt;
     font-style: italic;
     text-shadow: 7px 5px #161616;
+    padding-bottom: 1em;
   }
   article{
       text-align: center;
@@ -80,31 +95,48 @@ a:visited{
   section{
         background-color: #161616;
         padding-top: 0.2em;
-        padding-bottom: 0.2em;
-        font-size: 45pt;
+        font-size: 36pt;
         text-shadow: 7px 5px black;
     }
     #botao{
-        padding-right: 7em;
-        float: right;
-        padding-bottom: 1em;
-        padding-top: 0px;
+        float: left;
+        margin-right: 39%;
+        margin-left: 39%;
+        padding-top: 20px;
     }
     .inter{
-        padding-left: 7em;
-        text-align: left;
-        font-size: 55px;
+        text-align: center;
+        font-size: 45px;
     }
     footer{
         text-align: left;
         background-color: #161616;
         padding-top: 1em;
-        padding-bottom: 1em;
-        padding-left: 5em;
+        padding-bottom: 2.2em;
+        padding-left: 2em;
         color: white;
         font-family: "Rubik";
         font-size: 15pt;
         margin-top: 7em;
+    }
+    #voltarcont{
+        position: absolute;
+        left: 40%;
+        text-align: center;
+        font-size: 25px;
+        padding: 1em;   
+    }
+    #voltarcont:hover{
+        text-decoration: underline;
+    }
+    #voltar{
+      float:right;
+      padding-right: 3em;
+      font-size: 16px;
+      text-align: right;
+    }
+    #voltar:hover{
+      text-decoration: underline;
     }
     a{
         text-decoration: none;
@@ -122,7 +154,7 @@ a:visited{
         width: 300px;
     }
     .cont {
-        box-shadow: 7px 7px #161616; 
+        box-shadow: 7px 7px #161616;
     }
     .titulo3{
         text-align: left;
@@ -135,9 +167,9 @@ a:visited{
         margin-left: 30px;
       }
       .justify{
-        text-align: left;
-        padding-left: 11em;
-        padding-right: 7em;
+        text-align: justify;
+        margin-left: 7em;
+        margin-right: 7em;
       }
 
 .paragrafo{
@@ -146,28 +178,53 @@ a:visited{
     font-size: 30px;
     text-align: justify;
     padding-right: 10px;
-    
+
 }
 .pratique {
+    text-align: center;
+}
+.imgleft {
+    display: block;
+    width: 178px;
+    float: left;
+    margin-right: 15px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.imgright {
+    display: block;
+    width: 178px;
+    float: right;
+    margin-left: 15px;
+    border: white;
+    border-style: solid;
+    border-width: 2px;
+}
+.paragraforight {
+    padding-right: 2em;
+    font-size: 20px;
+    text-align: right;
+    padding-left: 33em;
+}
+.paragrafoleft{
+    padding-left: 3em;
+    width: 30em;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.titalinesq {
+    font-size: 40px;
     padding-left: 2em;
     text-align: left;
     padding-right: 7em;
 }
-.imgleft {
-    width: 200px;
-    float: left;
-    margin-right: 15px;
-}
-.imgright {
-    width: 200px;
-    float: right;
-    margin-left: 15px;
-}
-.paragraforight {
-    padding-right: 2em;
-    font-size: 30px;
-    text-align: justify;
-    padding-left: 33em;
+.titalindir {
+    font-size: 40px;
+    padding-right: 1em;
+    text-align: right;
+    padding-left: 7em;
 }
 .pratique2 {
     padding-right: 1em;
