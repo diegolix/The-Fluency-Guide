@@ -208,13 +208,13 @@ a:visited{
   }
   
   #quadro .titulo{
-    position: absolute;
+    position: relative;
     padding-top: 90px;
     background-color: rgba(0, 0, 0, 0.5);
     width: 251px;
     height: 161px;
     font-size: 45px; 
-    margin-top: -13.4%;
+    margin-top: -85%;
     margin-left: 24px;
     font-family: Rubik;
   }
