@@ -12,8 +12,7 @@ body, html {
   font-family: Rubik-regular;
   src: url(fonts/Rubik-Regular.ttf);
 }
-
-.imgpratique {
+gpratique {
   padding-left: 10vw;
 }
 .cabe{
@@ -21,10 +20,8 @@ body, html {
     width: 10vw;
     color: white;
     font-family: "Rubik";
-    font-size: 12pt;
-    
+    font-size: 1vw;
 }
-
 #header{
     position: relative;
     text-align: center;
@@ -44,8 +41,11 @@ a:visited{
   h1, h2 {
       text-align: center;
      padding-bottom: 8vw;
+  
   }
-
+.nomepag {
+  width: 60vw;
+}
   p {
       text-align: center;
       font-size: 20pt;
@@ -72,14 +72,15 @@ a:visited{
       text-align: center;
       font-style: italic;
       text-shadow: 7px 5px #161616;
-      font-size: 4vw;
+      font-size: 3vw;
   }
   .habilidades{
+    position: relative;
     display: inline-block;
-    width: 400px;
+    width: 19vw;
     color: white;
     font-family: "Rubik";
-    font-size: 50pt;
+    font-size: 3vw;
     font-style: italic;
     text-shadow: 7px 5px #161616;
   }
@@ -96,8 +97,8 @@ a:visited{
         align-items: center;
     }
     .botao{
-        margin: 1em;;
-        font-size: 55px;
+        margin: 3vw;
+        font-size: 3vw;
         text-align: left;
     }
     footer{
