@@ -14,11 +14,11 @@ body, html {
 }
 
 .imgpratique {
-  padding-left: 32em;
+  padding-left: 10vw;
 }
 .cabe{
     display: inline-block;
-    width: 150px;
+    width: 10vw;
     color: white;
     font-family: "Rubik";
     font-size: 12pt;
@@ -29,8 +29,8 @@ body, html {
     position: relative;
     text-align: center;
     background-color: #161616;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
     width: auto;
 }
 a:link {
@@ -43,7 +43,7 @@ a:visited{
 
   h1, h2 {
       text-align: center;
-     padding-bottom: 5em;
+     padding-bottom: 8vw;
   }
 
   p {
@@ -55,16 +55,16 @@ a:visited{
     position: relative;
     text-align: center;
     background-color: #161616;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
-    font-size: 39px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 2vw;
   }
   h3 {
     text-align: center;
-    margin-bottom: 0em;
+    margin-bottom: 0vw;
     color: white;
     font-family: "Rubik";
-    font-size: 40pt;
+    font-size: 3vw;
     font-style: italic;
     text-shadow: 7px 5px #161616;
   }
@@ -72,7 +72,7 @@ a:visited{
       text-align: center;
       font-style: italic;
       text-shadow: 7px 5px #161616;
-      font-size: 38px;
+      font-size: 4vw;
   }
   .habilidades{
     display: inline-block;
