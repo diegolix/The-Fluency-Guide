@@ -43,12 +43,15 @@ a:visited{
      padding-bottom: 8vw;
   
   }
+.thefluency{
+  width: 30vw;
+}
 .nomepag {
   width: 60vw;
 }
   p {
       text-align: center;
-      font-size: 20pt;
+      font-size: 2vw;
       font-family: "Rubik-regular";
   }
   .fundo {
