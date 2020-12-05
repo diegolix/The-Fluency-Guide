@@ -1,8 +1,9 @@
 body, html { 
     background-color: #222222;
+    background-image: url(quiz/imgs/londres.jpg);
     color: white;
     margin: 0;
-    background-size: cover;
+
 }
 @font-face{
   font-family: Rubik;
@@ -12,8 +13,11 @@ body, html {
   font-family: Rubik-regular;
   src: url(fonts/Rubik-Regular.ttf);
 }
-gpratique {
+pratique {
   padding-left: 10vw;
+}
+.conteudo{
+  background-color: #222222;
 }
 .cabe{
     display: inline-block;
@@ -25,10 +29,10 @@ gpratique {
 #header{
     position: relative;
     text-align: center;
-    background-color: #161616;
     padding-top: 1vw;
     padding-bottom: 1vw;
     width: auto;
+    background-image: url(/quiz/imgs/bg-header.png);
 }
 a:link {
     color:  white;
