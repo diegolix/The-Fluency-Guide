@@ -53,6 +53,7 @@ a{
 }
 a:hover{
   color: rgba(129, 216, 238, 0.575);
+  cursor: pointer;
 }
   h1, h2 {
       text-align: center;
