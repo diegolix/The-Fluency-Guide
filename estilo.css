@@ -73,7 +73,7 @@ a:hover{
   .fundo {
     position: relative;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     padding-top: 3vw;
     padding-bottom: 3vw;
     font-size: 2vw;
@@ -85,12 +85,12 @@ a:hover{
     font-family: "Rubik";
     font-size: 3vw;
     font-style: italic;
-    text-shadow: 7px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 7px 5px rgba(0, 0, 0, 0.4);
   }
   .txtsombra{
       text-align: center;
       font-style: italic;
-      text-shadow: 7px 5px rgba(0, 0, 0, 0.5);;
+      text-shadow: 7px 5px rgba(0, 0, 0, 0.4);
       font-size: 3vw;
       margin-top: 0vh;
       margin-bottom: 6vh;
@@ -131,7 +131,7 @@ a:hover{
         font-size: 2vw;
         font-family: rubik;
         color: white;
-        background-color: #161616;
+        background-color: #161616b9;
         box-shadow: 10px 10px black;
     }
     .botaocentro{
@@ -297,4 +297,12 @@ a:hover{
 .imgpratique {
   margin-left: 5vw;
   width: 40vw;
+  box-shadow: 8px 8px rgba(0, 0, 0, 0.5);
+}
+#container{
+  background-color:rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  margin: 4vw;
+  padding: 3vh;
+  border-radius: 10px;
 }
